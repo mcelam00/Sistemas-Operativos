@@ -1,0 +1,16 @@
+se suele mandar un cambio en la practica final
+
+primero deberiamos hacerlo sobre nuestra practica y luego pasarlo a papel, suelen ser 20 o 25 minutos
+quirn haya hecho la practica, no tendremos ningún problema
+Los hilos son procesos que se crean de forma concurrente, equivale al fork, pero me permiten que un proceso pueda tener varios hilos, varias tareas que se realicen de forma simultanea
+vamos a tener semaforos.
+el hilo pertenece a un proceso, es un proceso el que lanza un hilo. 
+los hilos son mucho mas livianos y comprten espacio de memoria
+los procesos cuando se ejecutaban ejecutaban otro programa, los hilos no, comparten las variables globales, los archivos....
+
+gcc -o practica7 practica7.c -lpthread
+
+igual que para un proceso pid_t ahora pthread_t
+le paso el hilo, despues lo atributos por defecto del hilo, que suele ser null
+despues un puntero a la funcionq ue ejecuta el hilo y los atributos que le pasa
+el pasarle un puntero void es esencialemente para que pueda recibir cualquier cosa
